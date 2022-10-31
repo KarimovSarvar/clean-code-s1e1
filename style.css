@@ -1,27 +1,27 @@
 /* Basic Style */
-body {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.head-block {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.head-block__img {
     width: 100%;
 }
-.aaa .more_inf {
+.head-block__info {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.head-block { text-align: center;
 }
 }
-.centered-main-page-element {
+.main-block {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -129,7 +129,7 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
